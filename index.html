@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  <h2 class="helvetica_white"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h4 class="helvetica_white">{{ post.date | date: "%m-%d-%Y" }}</h4>
+  <p class="helvetica_white">{{ post.content | strip_html | truncatewords:10}}</p>
+{% endfor %}

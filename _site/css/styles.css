@@ -1,0 +1,53 @@
+#not_a_kitten {
+  border: 10px ridge brown;
+  padding: 10px;
+  width: 54%;
+  color: white;
+}
+
+.helvetica_white{
+  font-family: "Helvetica", sans-serif;
+  color: white;
+}
+
+.post_body{
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  width: 40%;
+  margin: 20px 10px 20px 0px;
+}
+
+.blog_title{
+  font-family: "Helvetica", sans-serif;
+  font-size: 26px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  width: 60%;
+}
+
+.nav_bar_item{
+  font-family: "Helvetica", sans-serif;
+  display: inline;
+  padding: 10px;
+}
+
+body {
+  background: black;
+}
+
+a:visited {
+  color: skyblue;
+}
+
+a:active {
+  color: white;
+}
+
+a:link {
+  color:white;
+}
+
+a:hover {
+  color:white;
+}
